@@ -2,10 +2,12 @@ package mobility ;
 public class HelloMobility {
     private String serviceName ;
     private String city ;
+    private int yearCreated ;
     // Constructeur
-    public HelloMobility ( String serviceName , String city ) {
+    public HelloMobility ( String serviceName , String city, int yearCreated ) {
         this . serviceName = serviceName ;
         this . city = city ;
+        this .yearCreated = yearCreated;
         } 
 
     // Methode d ’ instance
